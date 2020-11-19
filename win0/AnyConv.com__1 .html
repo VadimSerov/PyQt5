@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.3.2.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		pre { font-family: "Liberation Mono", monospace; font-size: 10pt; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;class&gt;Dialog&lt;/class&gt;
+ &lt;widget class=&quot;QDialog&quot; name=&quot;Dialog&quot;&gt;
+  &lt;property name=&quot;geometry&quot;&gt;
+   &lt;rect&gt;
+    &lt;x&gt;0&lt;/x&gt;
+    &lt;y&gt;0&lt;/y&gt;
+    &lt;width&gt;400&lt;/width&gt;
+    &lt;height&gt;300&lt;/height&gt;
+   &lt;/rect&gt;
+  &lt;/property&gt;
+  &lt;property name=&quot;windowTitle&quot;&gt;
+   &lt;string&gt;1 Dialog&lt;/string&gt;
+  &lt;/property&gt;
+  &lt;widget class=&quot;QDialogButtonBox&quot; name=&quot;buttonBox&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;230&lt;/x&gt;
+     &lt;y&gt;250&lt;/y&gt;
+     &lt;width&gt;161&lt;/width&gt;
+     &lt;height&gt;21&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;orientation&quot;&gt;
+    &lt;enum&gt;Qt::Horizontal&lt;/enum&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;standardButtons&quot;&gt;
+    &lt;set&gt;QDialogButtonBox::Cancel|QDialogButtonBox::Ok&lt;/set&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QListWidget&quot; name=&quot;listWidget&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;110&lt;/x&gt;
+     &lt;y&gt;30&lt;/y&gt;
+     &lt;width&gt;256&lt;/width&gt;
+     &lt;height&gt;192&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QGroupBox&quot; name=&quot;groupBox&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;0&lt;/x&gt;
+     &lt;y&gt;10&lt;/y&gt;
+     &lt;width&gt;91&lt;/width&gt;
+     &lt;height&gt;141&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;title&quot;&gt;
+    &lt;string&gt;GroupBox&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QLineEdit&quot; name=&quot;lineEdit&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;30&lt;/x&gt;
+     &lt;y&gt;240&lt;/y&gt;
+     &lt;width&gt;113&lt;/width&gt;
+     &lt;height&gt;20&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt;&ETH;Ÿ&Ntilde;€&ETH;&cedil;&ETH;&ordm;&ETH;&deg;&ETH;&middot;&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QLabel&quot; name=&quot;label&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;30&lt;/x&gt;
+     &lt;y&gt;270&lt;/y&gt;
+     &lt;width&gt;151&lt;/width&gt;
+     &lt;height&gt;16&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt;TextLabel&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+  &lt;widget class=&quot;QPushButton&quot; name=&quot;pushButton&quot;&gt;
+   &lt;property name=&quot;geometry&quot;&gt;
+    &lt;rect&gt;
+     &lt;x&gt;20&lt;/x&gt;
+     &lt;y&gt;180&lt;/y&gt;
+     &lt;width&gt;75&lt;/width&gt;
+     &lt;height&gt;23&lt;/height&gt;
+    &lt;/rect&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;text&quot;&gt;
+    &lt;string&gt;&ETH;–&ETH;&frac14;&ETH;&cedil;&lt;/string&gt;
+   &lt;/property&gt;
+  &lt;/widget&gt;
+ &lt;/widget&gt;
+ &lt;resources/&gt;
+ &lt;connections&gt;
+  &lt;connection&gt;
+   &lt;sender&gt;buttonBox&lt;/sender&gt;
+   &lt;signal&gt;accepted()&lt;/signal&gt;
+   &lt;receiver&gt;Dialog&lt;/receiver&gt;
+   &lt;slot&gt;accept()&lt;/slot&gt;
+   &lt;hints&gt;
+    &lt;hint type=&quot;sourcelabel&quot;&gt;
+     &lt;x&gt;248&lt;/x&gt;
+     &lt;y&gt;254&lt;/y&gt;
+    &lt;/hint&gt;
+    &lt;hint type=&quot;destinationlabel&quot;&gt;
+     &lt;x&gt;157&lt;/x&gt;
+     &lt;y&gt;274&lt;/y&gt;
+    &lt;/hint&gt;
+   &lt;/hints&gt;
+  &lt;/connection&gt;
+  &lt;connection&gt;
+   &lt;sender&gt;buttonBox&lt;/sender&gt;
+   &lt;signal&gt;rejected()&lt;/signal&gt;
+   &lt;receiver&gt;Dialog&lt;/receiver&gt;
+   &lt;slot&gt;reject()&lt;/slot&gt;
+   &lt;hints&gt;
+    &lt;hint type=&quot;sourcelabel&quot;&gt;
+     &lt;x&gt;316&lt;/x&gt;
+     &lt;y&gt;260&lt;/y&gt;
+    &lt;/hint&gt;
+    &lt;hint type=&quot;destinationlabel&quot;&gt;
+     &lt;x&gt;286&lt;/x&gt;
+     &lt;y&gt;274&lt;/y&gt;
+    &lt;/hint&gt;
+   &lt;/hints&gt;
+  &lt;/connection&gt;
+ &lt;/connections&gt;
+&lt;/ui&gt;</pre>
+</body>
+</html>
