@@ -54,9 +54,9 @@ class mainwindow(QtWidgets.QMainWindow) :
         super(mainwindow, self).__init__()
         self.ui = Ui_Form()
         self.ui.setupUi(self)
-        self.ui.label.setFont(
-            QtGui.QFont('SansSerif', 30)
-        ) # Изменение шрифта и размера
+        #self.ui.label.setFont(
+        #    QtGui.QFont('SansSerif', 30)
+        #) # Изменение шрифта и размера
         #self.ui.label.setGeometry(
         #    QtCore.QRect(10, 10, 200, 200)
         #) # изменить геометрию ярлыка
